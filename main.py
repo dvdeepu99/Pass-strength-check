@@ -1,7 +1,7 @@
 import string
 
 pwd = input("Enter your password: ")
-flag = bool(True)
+flag = True
 
 if not any(x.isupper() for x in pwd):
   flag = False
